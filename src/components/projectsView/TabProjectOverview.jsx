@@ -44,7 +44,7 @@ const TabProjectOverview = () => {
                         <div className="card-body task-header d-md-flex align-items-center justify-content-between">
                             <div className="me-4">
                                 <h4 className="mb-4 fw-bold d-flex">
-                                    <span className="text-truncate-1-line">Duralux || CRM Applications &amp; Admin Dashboar <span className="badge bg-soft-primary text-primary mx-3">In Prograss</span></span>
+                                    <span className="text-truncate-1-line">Courtiv || CRM Applications &amp; Admin Dashboar <span className="badge bg-soft-primary text-primary mx-3">In Prograss</span></span>
                                 </h4>
                                 <div className="d-flex align-items-center">
                                     <div className="filter-dropdown">

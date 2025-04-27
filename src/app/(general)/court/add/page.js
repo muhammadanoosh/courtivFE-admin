@@ -1,6 +1,6 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
-import ProposalEditContent from '@/components/proposalEditCreate/ProposalEditContent'
+import CourtEditContent from '@/components/court/CourtEditContent'
 import ProposalEditHeader from '@/components/proposalEditCreate/ProposalEditHeader'
 import PageHeader from '@/components/shared/pageHeader/PageHeader'
 const ProposalSent = dynamic(() => import('@/components/proposalEditCreate/ProposalSent'), { ssr: false })
@@ -12,7 +12,7 @@ const page = () => {
             </PageHeader>
             <div className='main-content'>
                 <div className='row'>
-                    <ProposalEditContent />
+                    <CourtEditContent />
                 </div>
             </div>
             <ProposalSent />

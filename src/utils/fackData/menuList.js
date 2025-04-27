@@ -2,7 +2,7 @@ export const menuList = [
     {
         id: 0,
         name: "dashboards",
-        path: "#",
+        path: "/",
         icon: 'feather-airplay',
         dropdownMenu: [
             {
@@ -129,6 +129,24 @@ export const menuList = [
 
         ],
     },
+
+    {
+        id: 3,
+        name: "Court",
+        path: "#",
+        icon: 'feather-at-sign',
+        dropdownMenu: [
+            {
+                id: 1,
+                name: "Add Court/Arena/Fields",
+                path: "/court/add",
+                subdropdownMenu: false
+            },
+        ],
+    },
+
+
+
     {
         id: 4,
         name: "payment",
@@ -507,7 +525,7 @@ export const menuList = [
                 id: 1,
                 name: "Support",
                 path: "https://wrapbootstrap.com/user/theme_ocean",
-                target:"_blank",
+                target: "_blank",
                 subdropdownMenu: false
             },
             {
@@ -519,11 +537,11 @@ export const menuList = [
             {
                 id: 3,
                 name: "Documentations",
-                path: "https://duralux-next-doc.vercel.app/",
-                target:"_blank",
+                path: "https://Courtiv-next-doc.vercel.app/",
+                target: "_blank",
                 subdropdownMenu: false
             }
         ]
     },
-    
+
 ]

@@ -1,27 +1,16 @@
-import "../assets/scss/theme.scss";
-import 'react-circular-progressbar/dist/styles.css';
-import "react-perfect-scrollbar/dist/css/styles.css";
-import "react-datepicker/dist/react-datepicker.css";
-import "react-datetime/css/react-datetime.css";
-import NavigationProvider from "@/contentApi/navigationProvider";
-import SettingSideBarProvider from "@/contentApi/settingSideBarProvider";
-import ThemeCustomizer from "@/components/shared/ThemeCustomizer";
+// app/layout.js or app/layout.tsx
+import RootLayoutClient from "./RootLayoutClient";
 
 export const metadata = {
-  title: "Duralux | Dashboard",
-  description: "Duralux is a admin Dashboard create for multipurpose,",
+  title: "Courtiv | Dashboard",
+  description: "Courtiv is an admin Dashboard created for multipurpose.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <SettingSideBarProvider>
-          <NavigationProvider>
-            {children}
-          </NavigationProvider>
-        </SettingSideBarProvider>
-        <ThemeCustomizer />
+        <RootLayoutClient>{children}</RootLayoutClient>
       </body>
     </html>
   );
